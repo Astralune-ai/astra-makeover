@@ -1,0 +1,26 @@
+# secrets / keys — never commit
+config.env
+*.env
+!.env.example
+*.key
+*.pem
+
+# generated outputs
+makeover-outputs/
+*.png
+*.jpg
+*.jpeg
+!references/**/*.png
+!assets/**/*.png
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
